@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="vG06sTKsWI2AWoD81uwA">
+    <mxGraphModel dx="717" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Utilizador" vertex="1">
+          <mxGeometry height="880" width="100" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Dispositivo MoveSense" vertex="1">
+          <mxGeometry height="880" width="100" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-18" edge="1" parent="FAeJ_hCe58EnULCHvu0V-2" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="5. Iniciar o cronómetro">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="223" />
+              <mxPoint x="80" y="253" />
+            </Array>
+            <mxPoint x="50" y="223" as="sourcePoint" />
+            <mxPoint x="54.999999999999886" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Acelerómetro e Giroscópio" vertex="1">
+          <mxGeometry height="880" width="100" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Aplicação no pc" vertex="1">
+          <mxGeometry height="880" width="100" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" target="FAeJ_hCe58EnULCHvu0V-2" value="1. Ligar o dispositivo">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="120" as="sourcePoint" />
+            <mxPoint x="170" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-6" edge="1" parent="1" source="FAeJ_hCe58EnULCHvu0V-2" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" target="FAeJ_hCe58EnULCHvu0V-4" value="3. Conectar o bluetooth (dispositivo &amp;gt; pc)">
+          <mxGeometry relative="1" width="80" x="-0.0594" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="409.5" y="198" />
+            </Array>
+            <mxPoint x="280" y="198" as="sourcePoint" />
+            <mxPoint x="360" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;fontColor=#FF0000;" target="FAeJ_hCe58EnULCHvu0V-4" value="2. Ligar a aplicação no pc">
+          <mxGeometry relative="1" width="80" x="-0.2492" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="158" as="sourcePoint" />
+            <mxPoint x="170" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" value="&lt;font&gt;4. Iniciar a flexão e extensão&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;do braço&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="91" y="238" as="sourcePoint" />
+            <mxPoint x="251" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-13" edge="1" parent="1" source="FAeJ_hCe58EnULCHvu0V-3" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" target="FAeJ_hCe58EnULCHvu0V-2" value="7. Enviar dados obtidos">
+          <mxGeometry relative="1" width="80" x="-0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="329.5" y="358" />
+            </Array>
+            <mxPoint x="290" y="358" as="sourcePoint" />
+            <mxPoint x="370" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-19" edge="1" parent="1" source="FAeJ_hCe58EnULCHvu0V-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="FAeJ_hCe58EnULCHvu0V-4" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;15. Enviar dados via bluetooth&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="409.5" y="679" />
+            </Array>
+            <mxPoint x="350.5" y="506" as="sourcePoint" />
+            <mxPoint x="270.5" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="9. Enviar luz verde (x)">
+          <mxGeometry relative="1" width="80" x="-0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="170" y="436" />
+            </Array>
+            <mxPoint x="250" y="436" as="sourcePoint" />
+            <mxPoint x="90" y="436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="11. Enviar luz vermelho (y)">
+          <mxGeometry relative="1" width="80" x="-0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="169.9999999999999" y="520" />
+            </Array>
+            <mxPoint x="250" y="520" as="sourcePoint" />
+            <mxPoint x="90" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-23" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="8. Analisar os dados">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="384" />
+              <mxPoint x="280" y="414" />
+            </Array>
+            <mxPoint x="250" y="384" as="sourcePoint" />
+            <mxPoint x="254.9999999999999" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;x&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Ângulo igual ou superior a 90º&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;y&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Ângulo inferior a 90º&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="600" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" value="6. Solicita dados">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="250" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-27" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="10. Contar uma repetição">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="462" />
+              <mxPoint x="280" y="492" />
+            </Array>
+            <mxPoint x="250" y="462" as="sourcePoint" />
+            <mxPoint x="254.9999999999999" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-28" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="12. Registar movimento incompleto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="542" />
+              <mxPoint x="280" y="572" />
+            </Array>
+            <mxPoint x="250" y="542" as="sourcePoint" />
+            <mxPoint x="254.9999999999999" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-29" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="13. Analisar a continuidade do movimento">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="584" />
+              <mxPoint x="280" y="614" />
+            </Array>
+            <mxPoint x="250" y="584" as="sourcePoint" />
+            <mxPoint x="254.9999999999999" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-30" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="14. Armazenar os dados (ângulos, repetições e tempo)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="281" y="624" />
+              <mxPoint x="281" y="654" />
+            </Array>
+            <mxPoint x="251" y="624" as="sourcePoint" />
+            <mxPoint x="255.9999999999999" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" value="16. Pressionar botão reset">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="720" as="sourcePoint" />
+            <mxPoint x="250" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-33" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="17. Reiniciar&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="740" />
+              <mxPoint x="280" y="770" />
+            </Array>
+            <mxPoint x="250" y="740" as="sourcePoint" />
+            <mxPoint x="254.9999999999999" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" value="18. Pressionar botão on/off">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="90" y="800" as="sourcePoint" />
+            <mxPoint x="250" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=light-dark(#FF0000,#FF0000);" value="20. Fechar aplicação">
+          <mxGeometry relative="1" width="80" x="-0.0125" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="412" y="879" />
+            </Array>
+            <mxPoint x="252" y="879" as="sourcePoint" />
+            <mxPoint x="572" y="879" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAeJ_hCe58EnULCHvu0V-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;fontColor=#FF0000;" value="19. Encerrar o sistema">
+          <mxGeometry relative="1" width="80" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="250" y="840" as="sourcePoint" />
+            <mxPoint x="410" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
